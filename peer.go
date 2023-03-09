@@ -1897,11 +1897,11 @@ func RequestGroup() {
 	}
 
 	// JL Send data to Node.js server
-    conn, err := net.Dial("tcp", "127.0.0.1:3001")
-    if err != nil {
-        log.Fatal(err)
-    }
-    defer conn.Close()
+    // conn, err := net.Dial("tcp", "127.0.0.1:3001")
+    // if err != nil {
+    //     log.Fatal(err)
+    // }
+    // defer conn.Close()
 
     // JL send peer ID and leader to Node.js
     // for _, peer := range arr {
